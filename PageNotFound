@@ -1,6 +1,21 @@
-<hmtl>
-<style>
+<!doctype html>
+<html lang="en-US">
+<style> 
+body { background-color: #000000; 
+      font-family: Tahoma, sans-serif;}
+p {
+      margin-top: 100px;
+      text-align: center; 
+      font-size; 128px; }
+a { color: #FFFFFF; }
+a:visited {   color: #FFFFFF;  }  
+a:hover {   color: #FFFFFF;  }  
+a:active{  color: #FFFFFF;   }  
 </style>
 <body>
+      <p>Sorry, this page does not exist</p>
+      <p><a href="index">Back to Main Page</a></p>
 </body>
+
+
 </html>
