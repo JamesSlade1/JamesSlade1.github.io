@@ -17,33 +17,30 @@ html, body {
   color: white;
   font-size: 30px;
 }
-  .boxes {
-position: aboslute;
-left:50%;
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-      
-  .box {
-display: inline;
-background-color: lightgrey;
-  width: 200px;
-  height: 100px;
-  padding: 5px;
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
   
         
 </style>
 </head>
 <body>
-<div class="header">
-  <h1>Dark Skies</h1>
-      </div>
-<div class="boxes">
- <div class="box"></div><!--1-
- --><div class="box"></div><!--2
- --><div class="box"></div><!--3
- --><div class="box"></div><!--4-->
-</div>
-<!--All the boxes above the page-->
+<ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
       
 <p><a href="index">Back to Main Page</a></p>
 </body>
